@@ -1,0 +1,8 @@
+[package]
+name = "kb_backlight"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rusb = "0.9"
+libc = "0.2"
