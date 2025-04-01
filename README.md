@@ -1,4 +1,4 @@
-# This program was made specifically for the Acer Predator Helios 300 notebook, model ph315-55, which has per-key RGB. It is likely to work on other models that also have per-key RGB.
+# This program was made specifically for the Acer Predator Helios 300 notebook, model ph315-55, which has per-key RGB. It is likely to work on other models from acer that also have per-key RGB.
 
 ## 🎛 Application Commands
 
