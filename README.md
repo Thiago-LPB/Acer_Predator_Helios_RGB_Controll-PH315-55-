@@ -4,10 +4,10 @@
 
 | Command              | Description                                      | Example                          |
 |----------------------|------------------------------------------------|----------------------------------|
-| `color R G B`       | Sets a static color (RGB).                     | `cargo run -- color 255 0 0` (red)           |
+| `color R G B`       | Sets a static color (RGB).                     | `cargo run -- color 255 0 0`            |
 | `brightness up`     | Increases brightness.                           | `cargo run -- brightness up`                 |
 | `brightness down`   | Decreases brightness.                           | `cargo run -- brightness down`               |
-| `effects R G B`     | Activates dynamic effects in the specified color. | `cargo run -- effects 0 0 255` (blue effect) |
+| `effects R G B`     | Activates dynamic effects in the specified color. | `cargo run -- effects 0 0 255`  |
 | `speed up`         | Increases the speed of dynamic effects.         | `cargo run -- speed up`                      |
 | `speed down`       | Decreases the speed of dynamic effects.         | `cargo run -- speed down`                    |
 | `reset`            | Resets the state file to default settings.       | `cargo run -- reset`                         |
