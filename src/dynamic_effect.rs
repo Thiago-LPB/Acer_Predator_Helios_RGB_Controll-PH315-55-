@@ -82,7 +82,7 @@ impl Effects {
 pub fn set_effect(mut effect: [u8;8], handle:&DeviceHandle<Context>, state: &mut State) {
 
     /*
-        Wave directions:
+        Wave directions: (7th byte)
             0,1 -> right
             2 -> left
             3 -> top
