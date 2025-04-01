@@ -1,7 +1,6 @@
 use std::time::Duration;
-use libc::stat;
 use rusb::{DeviceHandle, Context};
-use crate::{brightness, Color, State};
+use crate::State;
 
 
 pub struct Effects {
@@ -51,10 +50,6 @@ impl Effects {
         fireball_effect : FIREBALL_EFFECT,
         heartbeat_effect : HEARTBEAT_EFFECT,
     }
-
-
-
-
 }
     pub fn get_effects(&self, name: &str) -> [u8;8]{
 
