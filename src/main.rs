@@ -110,8 +110,9 @@ fn main() -> ExitCode {
         Err(_) => {
             println!("Detaching kernel driver...");
             handle.detach_kernel_driver(3).expect("Falha ao liberar kernel driver");
-            println!("Interface claimed!");
             handle.claim_interface(3).expect("Unable to claim interface!");
+
+println!("Interface claimed!");
         }
     }
 
