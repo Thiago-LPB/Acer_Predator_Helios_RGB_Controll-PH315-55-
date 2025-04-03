@@ -58,7 +58,11 @@ pub fn set_brightness(option: String, handle: DeviceHandle<Context>, state: &mut
     }
     } else if state.effect_type.to_lowercase() == "dynamic" {
         dynamic_effect::set_effect(effects.get_effects(state.dynamic_effect_name.as_str()), &handle, state);
-    }
+    } else {
+
+    return Err("Unknown state mode".to_string());
+
+}
 
     return Ok("Brilho alterado!".to_string());
 }
