@@ -225,7 +225,7 @@ fn main() -> ExitCode {
         return ExitCode::SUCCESS;
     
     }else{
-        println!("Invalid arguments names. Should be color, brightness.");
+        println!("Invalid argument names.");
         return ExitCode::FAILURE;
     }
     write_state_file(state.color, state.brightness, state.effect_type, &state_path, state.dynamic_effect_name, state.speed);
